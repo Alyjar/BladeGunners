@@ -1,0 +1,45 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	766723505	Game_State			\Default Work Unit\Game_State	
+	4045247394	MatchResults			\Default Work Unit\MatchResults	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Game_State			
+	1575632888	Match	Game_State			
+	3604647259	MainMenu	Game_State			
+	3780578133	Results	Game_State			
+	748895195	None	MatchResults			
+	1593864692	Defeat	MatchResults			
+	2716678721	Victory	MatchResults			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	988953028	SFXVolume			\Default Work Unit\SFXVolume	
+	2346531308	MusicVolume			\Default Work Unit\MusicVolume	
+	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1132214669	Interior			\Default Work Unit\Master Audio Bus\Interior	
+	1289942167	Stairs			\Default Work Unit\Master Audio Bus\Stairs	
+	1737926756	Tower			\Default Work Unit\Master Audio Bus\Tower	
+	2198133169	Hallway			\Default Work Unit\Master Audio Bus\Hallway	
+	2205317146	Crushers			\Default Work Unit\Master Audio Bus\Crushers	
+	2472510969	SkatePark			\Default Work Unit\Master Audio Bus\SkatePark	
+	3600139278	OpenArena			\Default Work Unit\Master Audio Bus\OpenArena	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+	2849147824	Medium	Wwise RoomVerb			
+	2949243095	Hall_Small_Bright	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
+	3900114836	Metal_Hangar	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

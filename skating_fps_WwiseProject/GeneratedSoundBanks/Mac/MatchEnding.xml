@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\mediocre-reality\skating_fps_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\mediocre-reality\skating_fps_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\mediocre-reality\skating_fps_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\mediocre-reality\skating_fps_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="187744289" GUID="{94A218B4-5BA4-4290-B70D-AC5878F2B399}" Language="SFX" Hash="1192175058">
+			<ObjectPath>\SoundBanks\Default Work Unit\MatchEnding</ObjectPath>
+			<ShortName>MatchEnding</ShortName>
+			<Path>MatchEnding.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="4056684167" GUID="{E8322CBF-3AC2-4211-AAD5-3410CE44F7E1}" Language="SFX" Hash="416751245">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
+			<ShortName>Master</ShortName>
+			<Path>Master.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1234974953" Name="ADS" ObjectPath="\Events\Default Work Unit\UX\ADS" GUID="{3DBA91A1-F6B7-464F-B03E-E9937075F2A6}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.523501" DurationMax="0.622551">
+					<IncludedMemoryFiles>
+						<File Id="700304251" Language="SFX">
+							<ShortName>UX_ADS_00_SFX.wav</ShortName>
+							<Path>SFX\UX_ADS_00_SFX_BC9F42A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1955667474" Name="Boinghee" ObjectPath="\Events\Default Work Unit\UI\Boinghee" GUID="{6C54C0EE-2F0F-4DCD-BE46-EC679BD8F505}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.900000" DurationMax="0.900000">
+					<IncludedMemoryFiles>
+						<File Id="1070926596" Language="SFX">
+							<ShortName>Bouncepad.wav</ShortName>
+							<Path>SFX\Bouncepad_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3009932360" Name="Bouncepad" ObjectPath="\Events\Default Work Unit\Environment\Bouncepad" GUID="{6F75D45E-49D1-40E2-8BBB-CD3B135E8606}" MaxAttenuation="5000.000000" DurationType="OneShot" DurationMin="2.162771" DurationMax="2.427629">
+					<IncludedMemoryFiles>
+						<File Id="991469031" Language="SFX">
+							<ShortName>ENV_Bouncepad_00.wav</ShortName>
+							<Path>SFX\ENV_Bouncepad_00_898E3A81.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1128266288" Name="ClientShot" ObjectPath="\Events\Default Work Unit\Shooting &amp; Shields\ClientShot" GUID="{30C2636B-D661-41F1-BD46-C579353D6329}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="1.424013" DurationMax="3.030520">
+					<IncludedMemoryFiles>
+						<File Id="10266626" Language="SFX">
+							<ShortName>Gunshot_Pistol_01_SFX.wav</ShortName>
+							<Path>SFX\Gunshot_Pistol_01_SFX_644E0A11.wem</Path>
+						</File>
+						<File Id="36720437" Language="SFX">
+							<ShortName>Gunshot_Sniper_06_SFX.wav</ShortName>
+							<Path>SFX\Gunshot_Sniper_06_SFX_644E0A11.wem</Path>
+						</File>
+						<File Id="459335821" Language="SFX">
+							<ShortName>Gunshot_Shotgun_04_SFX.wav</ShortName>
+							<Path>SFX\Gunshot_Shotgun_04_SFX_644E0A11.wem</Path>
+						</File>
+						<File Id="573336099" Language="SFX">
+							<ShortName>Gunshot_AR_SingleShot_00.wav</ShortName>
+							<Path>SFX\Gunshot_AR_SingleShot_00_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{E98BFF11-48F5-429A-BDD5-805248EE0A9B}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{E98BFF11-48F5-429A-BDD5-805248EE0A9B}">
+							<Media>
+								<File Id="10266626"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{19E45474-3ABE-4834-B705-3F12BCB1BBA7}">
+							<Media>
+								<File Id="459335821"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1E94A926-B70E-4572-A6C1-CD9863F924A4}">
+							<Media>
+								<File Id="36720437"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D6CB9BFA-5B8D-4979-AC2F-E762FE2755BD}">
+							<Media>
+								<File Id="573336099"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1505888634" Name="Countdown" ObjectPath="\Events\Default Work Unit\UX\Countdown" GUID="{F4E5D0B8-D849-4503-A33F-3A3A05C011DF}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="4.795562" DurationMax="4.795562">
+					<IncludedMemoryFiles>
+						<File Id="363268828" Language="SFX">
+							<ShortName>AN_Countdown_00.wav</ShortName>
+							<Path>SFX\AN_Countdown_00_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2205317146" Name="Crushers" ObjectPath="\Events\Default Work Unit\Environment\Crushers" GUID="{C2213C53-75EF-4668-835A-9ECF738144C5}" MaxAttenuation="5000.000000" DurationType="OneShot" DurationMin="6.243667" DurationMax="6.243667"/>
+				<Event Id="1786804762" Name="Damage" ObjectPath="\Events\Default Work Unit\Health\Damage" GUID="{13857338-8AD1-40AE-AF84-0D3D56E58985}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.943874" DurationMax="1.090508">
+					<IncludedMemoryFiles>
+						<File Id="928315839" Language="SFX">
+							<ShortName>Take Damage Test 1.wav</ShortName>
+							<Path>SFX\Take Damage Test 1_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2044049779" Name="Dead" ObjectPath="\Events\Default Work Unit\Health\Dead" GUID="{99578135-4F5D-4D51-8C1A-47F381F9DB95}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="4.440000" DurationMax="4.440000">
+					<IncludedMemoryFiles>
+						<File Id="733496274" Language="SFX">
+							<ShortName>PlayerDeath_01.wav</ShortName>
+							<Path>SFX\PlayerDeath_01_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="468298851" Name="GameOpen" ObjectPath="\Events\Default Work Unit\Music\GameOpen" GUID="{4218825E-1E2B-44A7-865C-D77C139210F5}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="106168471" Language="SFX">
+							<ShortName>Lobby00_130bpm_4-4.wav</ShortName>
+							<Path>SFX\Lobby00_130bpm_4-4_7C68AFDF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2E1968FE-8219-4633-81B8-2E3AF4F3E60E}">
+							<Media>
+								<File Id="106168471"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\Game_State\MainMenu" GUID="{2E1968FE-8219-4633-81B8-2E3AF4F3E60E}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2893136410" Name="GameStarted" ObjectPath="\Events\Default Work Unit\UI\GameStarted" GUID="{343D5428-F037-4AEE-945F-5831B694EFCD}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="5.500000" DurationMax="5.500000">
+					<IncludedMemoryFiles>
+						<File Id="731759316" Language="SFX">
+							<ShortName>UI_GameCountdown_03_SFX.wav</ShortName>
+							<Path>SFX\UI_GameCountdown_03_SFX_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3758073156" Name="Grind_Start" ObjectPath="\Events\Default Work Unit\Movement\Grind_Start" GUID="{5F536E03-A45B-4DA6-A392-AD5C021A6E90}" MaxAttenuation="3000.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="794331485" Language="SFX">
+							<ShortName>FLY_RailLoop_00.wav</ShortName>
+							<Path>SFX\FLY_RailLoop_00_7C68AFDF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="585746424" Name="Grind_Stop" ObjectPath="\Events\Default Work Unit\Movement\Grind_Stop" GUID="{F6508854-37D5-47F6-A704-26A69CC101C2}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="427746626" Name="GunRecharging_Start" ObjectPath="\Events\Default Work Unit\Shooting &amp; Shields\GunRecharging_Start" GUID="{57B842EB-7902-44D8-BC71-FC83B32AA593}" MaxAttenuation="150.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="871496868" Language="SFX">
+							<ShortName>WPN_GunRecharge_02 .wav</ShortName>
+							<Path>SFX\WPN_GunRecharge_02 _7C68AFDF.wem</Path>
+						</File>
+						<File Id="981271628" Language="SFX">
+							<ShortName>WPN_GunRecharge_01.wav</ShortName>
+							<Path>SFX\WPN_GunRecharge_01_7C68AFDF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3928844556" Name="Healed" ObjectPath="\Events\Default Work Unit\Health\Healed" GUID="{9ACC0ED3-6B8B-430F-A7DD-D24A7C89A801}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="1.568181" DurationMax="1.864892">
+					<IncludedMemoryFiles>
+						<File Id="1010537238" Language="SFX">
+							<ShortName>UX_HealthGained_Test_01.wav</ShortName>
+							<Path>SFX\UX_HealthGained_Test_01_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1116398592" Name="Hit" ObjectPath="\Events\Default Work Unit\UX\Hit" GUID="{1F896212-4349-4786-BCA8-FC66FBCDF27B}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.971532" DurationMax="1.776125">
+					<IncludedMemoryFiles>
+						<File Id="190807449" Language="SFX">
+							<ShortName>UX_Headshot_01_SFX.wav</ShortName>
+							<Path>SFX\UX_Headshot_01_SFX_644E0A11.wem</Path>
+						</File>
+						<File Id="211838108" Language="SFX">
+							<ShortName>CLICK_HitMarker_003_Stereo.wav</ShortName>
+							<Path>SFX\CLICK_HitMarker_003_Stereo_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{01260D88-479D-4275-AE7C-EBCE351CA470}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{AF71B553-9F25-4DB3-9084-F30130922085}">
+							<Media>
+								<File Id="190807449"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{01260D88-479D-4275-AE7C-EBCE351CA470}">
+							<Media>
+								<File Id="211838108"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\Default Work Unit\Movement\Jump" GUID="{3E798399-B66E-4027-AE7D-1B4B87B9DC96}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="0.518394" DurationMax="0.963143">
+					<IncludedMemoryFiles>
+						<File Id="320995808" Language="SFX">
+							<ShortName>FLY_SkateJump_03_SFX.wav</ShortName>
+							<Path>SFX\FLY_SkateJump_03_SFX_644E0A11.wem</Path>
+						</File>
+						<File Id="349537209" Language="SFX">
+							<ShortName>FLY_SkateJump_04_SFX.wav</ShortName>
+							<Path>SFX\FLY_SkateJump_04_SFX_644E0A11.wem</Path>
+						</File>
+						<File Id="476033205" Language="SFX">
+							<ShortName>FLY_SkateJump_01_SFX.wav</ShortName>
+							<Path>SFX\FLY_SkateJump_01_SFX_644E0A11.wem</Path>
+						</File>
+						<File Id="530952679" Language="SFX">
+							<ShortName>FLY_SkateJump_02_SFX.wav</ShortName>
+							<Path>SFX\FLY_SkateJump_02_SFX_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3047626640" Name="KillConfirmed" ObjectPath="\Events\Default Work Unit\UX\KillConfirmed" GUID="{B3F12741-ED4E-4DC7-9688-88EDBAAF9847}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="1.498208" DurationMax="1.542109">
+					<IncludedMemoryFiles>
+						<File Id="171351028" Language="SFX">
+							<ShortName>USER-FEEDBACK_KillConfirmed_01_Stereo.wav</ShortName>
+							<Path>SFX\USER-FEEDBACK_KillConfirmed_01_Stereo_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="674522502" Name="Land" ObjectPath="\Events\Default Work Unit\Movement\Land" GUID="{86EE95D3-DA38-4B45-841C-3D503A0655C5}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="0.663406" DurationMax="0.889551">
+					<IncludedMemoryFiles>
+						<File Id="576008998" Language="SFX">
+							<ShortName>FLY_SkateLand_04_SFX.wav</ShortName>
+							<Path>SFX\FLY_SkateLand_04_SFX_644E0A11.wem</Path>
+						</File>
+						<File Id="760895280" Language="SFX">
+							<ShortName>FLY_SkateLand_02_SFX.wav</ShortName>
+							<Path>SFX\FLY_SkateLand_02_SFX_644E0A11.wem</Path>
+						</File>
+						<File Id="797955488" Language="SFX">
+							<ShortName>FLY_SkateLand_01_SFX.wav</ShortName>
+							<Path>SFX\FLY_SkateLand_01_SFX_644E0A11.wem</Path>
+						</File>
+						<File Id="1030572292" Language="SFX">
+							<ShortName>FLY_SkateLand_03_SFX.wav</ShortName>
+							<Path>SFX\FLY_SkateLand_03_SFX_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="540301611" Name="Lava" ObjectPath="\Events\Default Work Unit\Environment\Lava" GUID="{6FC81610-2C1A-4B4C-8139-C1A2496726EF}" MaxAttenuation="5000.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="979770954" Language="SFX">
+							<ShortName>Lava_Loop.wav</ShortName>
+							<Path>SFX\Lava_Loop_27EF4C84.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2782955467" Name="LobbyJoin" ObjectPath="\Events\Default Work Unit\UI\LobbyJoin" GUID="{C4792216-5547-44F2-8BA3-6F50AA1D4D45}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.943874" DurationMax="1.029302">
+					<IncludedMemoryFiles>
+						<File Id="1072285832" Language="SFX">
+							<ShortName>UI_JoinLobby_Test.wav</ShortName>
+							<Path>SFX\UI_JoinLobby_Test_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2456249192" Name="LobbyLeave" ObjectPath="\Events\Default Work Unit\UI\LobbyLeave" GUID="{A467547A-46F2-4BB4-9249-44A47F56CDA4}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.943874" DurationMax="1.029302">
+					<IncludedMemoryFiles>
+						<File Id="274071666" Language="SFX">
+							<ShortName>UI_LeaveLobby_Test.wav</ShortName>
+							<Path>SFX\UI_LeaveLobby_Test_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2727648143" Name="MatchBegin" ObjectPath="\Events\Default Work Unit\Music\MatchBegin" GUID="{7E6063A1-9EEB-4D3E-8CA2-B6B0B97131AB}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="466860055" Language="SFX">
+							<ShortName>M07_120bpm_4-4.wav</ShortName>
+							<Path>SFX\M07_120bpm_4-4_28272014.wem</Path>
+						</File>
+						<File Id="537495435" Language="SFX">
+							<ShortName>Victory00_130bpm_4-4.wav</ShortName>
+							<Path>SFX\Victory00_130bpm_4-4_28272014.wem</Path>
+						</File>
+						<File Id="995413304" Language="SFX">
+							<ShortName>defeat.wav</ShortName>
+							<Path>SFX\defeat_28272014.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1575632888" Name="Match" ObjectPath="\States\Default Work Unit\Game_State\Match" GUID="{41C03C54-1468-42A1-818E-54882AA92550}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="157885098" Name="MatchLost" ObjectPath="\Events\Default Work Unit\Music\MatchLost" GUID="{3D19D492-6F9E-441E-BD6C-1DFE411D76CF}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="466860055" Language="SFX">
+							<ShortName>M07_120bpm_4-4.wav</ShortName>
+							<Path>SFX\M07_120bpm_4-4_28272014.wem</Path>
+						</File>
+						<File Id="537495435" Language="SFX">
+							<ShortName>Victory00_130bpm_4-4.wav</ShortName>
+							<Path>SFX\Victory00_130bpm_4-4_28272014.wem</Path>
+						</File>
+						<File Id="995413304" Language="SFX">
+							<ShortName>defeat.wav</ShortName>
+							<Path>SFX\defeat_28272014.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{41C03C54-1468-42A1-818E-54882AA92550}">
+							<Children>
+								<SwitchContainer SwitchValue="{499EBFEB-1DA1-40CB-B193-A15A0E90FC97}">
+									<Media>
+										<File Id="466860055"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AFF2144C-A93C-444C-892B-1BE74042E363}">
+							<Children>
+								<SwitchContainer SwitchValue="{7F6A266D-A742-48DC-AABD-E71768400C79}">
+									<Media>
+										<File Id="537495435"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AFF2144C-A93C-444C-892B-1BE74042E363}">
+							<Children>
+								<SwitchContainer SwitchValue="{0AFBF721-E78E-4CD1-9B8A-932E0EC49166}">
+									<Media>
+										<File Id="995413304"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1593864692" Name="Defeat" ObjectPath="\States\Default Work Unit\MatchResults\Defeat" GUID="{0AFBF721-E78E-4CD1-9B8A-932E0EC49166}"/>
+						<ActionSetStateEntry Id="3780578133" Name="Results" ObjectPath="\States\Default Work Unit\Game_State\Results" GUID="{AFF2144C-A93C-444C-892B-1BE74042E363}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3581278824" Name="MatchWon" ObjectPath="\Events\Default Work Unit\Music\MatchWon" GUID="{86D6735D-0538-4F43-BB8B-54BBEADBCA6F}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="466860055" Language="SFX">
+							<ShortName>M07_120bpm_4-4.wav</ShortName>
+							<Path>SFX\M07_120bpm_4-4_28272014.wem</Path>
+						</File>
+						<File Id="537495435" Language="SFX">
+							<ShortName>Victory00_130bpm_4-4.wav</ShortName>
+							<Path>SFX\Victory00_130bpm_4-4_28272014.wem</Path>
+						</File>
+						<File Id="995413304" Language="SFX">
+							<ShortName>defeat.wav</ShortName>
+							<Path>SFX\defeat_28272014.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\MatchResults\Victory" GUID="{7F6A266D-A742-48DC-AABD-E71768400C79}"/>
+						<ActionSetStateEntry Id="3780578133" Name="Results" ObjectPath="\States\Default Work Unit\Game_State\Results" GUID="{AFF2144C-A93C-444C-892B-1BE74042E363}"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="16204334" Name="NoAmmo" ObjectPath="\Events\Default Work Unit\Shooting &amp; Shields\NoAmmo" GUID="{E6EDD3E9-91C8-49A0-9FB5-1B568DFA4B6B}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="0.879678" DurationMax="0.973249">
+					<IncludedMemoryFiles>
+						<File Id="521512677" Language="SFX">
+							<ShortName>WPN_GunEmpty_00.wav</ShortName>
+							<Path>SFX\WPN_GunEmpty_00_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3776560549" Name="PlayRandomAd" ObjectPath="\Events\Default Work Unit\UI\PlayRandomAd" GUID="{A56CFBBF-0BDB-413A-8E7C-13A1405C7120}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="3.040313" DurationMax="6.502896">
+					<IncludedMemoryFiles>
+						<File Id="143643532" Language="SFX">
+							<ShortName>VOID_02_01.wav</ShortName>
+							<Path>SFX\VOID_02_01_644E0A11.wem</Path>
+						</File>
+						<File Id="497339334" Language="SFX">
+							<ShortName>ZERO_03_02.wav</ShortName>
+							<Path>SFX\ZERO_03_02_644E0A11.wem</Path>
+						</File>
+						<File Id="549812915" Language="SFX">
+							<ShortName>GRIFFIN_02_00.wav</ShortName>
+							<Path>SFX\GRIFFIN_02_00_644E0A11.wem</Path>
+						</File>
+						<File Id="877345354" Language="SFX">
+							<ShortName>ZERO_02_01.wav</ShortName>
+							<Path>SFX\ZERO_02_01_644E0A11.wem</Path>
+						</File>
+						<File Id="936259493" Language="SFX">
+							<ShortName>VOID_06_00.wav</ShortName>
+							<Path>SFX\VOID_06_00_644E0A11.wem</Path>
+						</File>
+						<File Id="1014266884" Language="SFX">
+							<ShortName>GRIFFIN_02_01.wav</ShortName>
+							<Path>SFX\GRIFFIN_02_01_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="459771350" Name="RailAttach" ObjectPath="\Events\Default Work Unit\Movement\RailAttach" GUID="{DB332A4B-2DAB-479D-943B-FE412E7BEED3}" MaxAttenuation="3000.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="24719745" Language="SFX">
+							<ShortName>FLY_RailAttach_04.wav</ShortName>
+							<Path>SFX\FLY_RailAttach_04_644E0A11.wem</Path>
+						</File>
+						<File Id="24902786" Language="SFX">
+							<ShortName>FLY_RailAttach_02.wav</ShortName>
+							<Path>SFX\FLY_RailAttach_02_644E0A11.wem</Path>
+						</File>
+						<File Id="354205196" Language="SFX">
+							<ShortName>FLY_RailAttach_03.wav</ShortName>
+							<Path>SFX\FLY_RailAttach_03_644E0A11.wem</Path>
+						</File>
+						<File Id="577739145" Language="SFX">
+							<ShortName>FLY_RailAttach_01.wav</ShortName>
+							<Path>SFX\FLY_RailAttach_01_644E0A11.wem</Path>
+						</File>
+						<File Id="794331485" Language="SFX">
+							<ShortName>FLY_RailLoop_00.wav</ShortName>
+							<Path>SFX\FLY_RailLoop_00_7C68AFDF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2392936760" Name="RailDetach" ObjectPath="\Events\Default Work Unit\Movement\RailDetach" GUID="{FF26953D-6CF8-4B58-8A7D-A18A719FA5D1}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="0.591678" DurationMax="0.654615">
+					<IncludedMemoryFiles>
+						<File Id="679269587" Language="SFX">
+							<ShortName>FLY_RailDetach_00.wav</ShortName>
+							<Path>SFX\FLY_RailDetach_00_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4279841335" Name="Respawn" ObjectPath="\Events\Default Work Unit\Health\Respawn" GUID="{8F0A9172-2768-4B1E-AF68-7CEFBD31AD0E}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="2.300000" DurationMax="2.300000">
+					<IncludedMemoryFiles>
+						<File Id="169644868" Language="SFX">
+							<ShortName>UX_Respawn_00.wav</ShortName>
+							<Path>SFX\UX_Respawn_00_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1819439377" Name="ServerShoot" ObjectPath="\Events\Default Work Unit\Shooting &amp; Shields\ServerShoot" GUID="{1A74F321-DA6A-4ADF-8169-CBF7D5D9E109}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="0.689028" DurationMax="0.796071">
+					<IncludedMemoryFiles>
+						<File Id="576743659" Language="SFX">
+							<ShortName>Server-side Shot.wav</ShortName>
+							<Path>SFX\Server-side Shot_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3724168951" Name="ShieldBreak" ObjectPath="\Events\Default Work Unit\Shooting &amp; Shields\ShieldBreak" GUID="{BBF8733A-2BC1-458F-B501-B0293CBC404E}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="1.074652" DurationMax="1.277984">
+					<IncludedMemoryFiles>
+						<File Id="648291967" Language="SFX">
+							<ShortName>Shield Broken Test 9.wav</ShortName>
+							<Path>SFX\Shield Broken Test 9_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2769527486" Name="ShieldCharging_Start" ObjectPath="\Events\Default Work Unit\Shooting &amp; Shields\ShieldCharging_Start" GUID="{2CC84CDB-28CB-426D-AB79-DEE333514744}" MaxAttenuation="150.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="600263917" Language="SFX">
+							<ShortName>UX_ShieldRecharging_00.wav</ShortName>
+							<Path>SFX\UX_ShieldRecharging_00_7C68AFDF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="892944862" Name="ShieldCharging_Stop" ObjectPath="\Events\Default Work Unit\Shooting &amp; Shields\ShieldCharging_Stop" GUID="{1A49AA04-98CD-454C-81D4-0FBE1DC462CC}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2513197477" Name="ShieldHit" ObjectPath="\Events\Default Work Unit\Health\ShieldHit" GUID="{4F5F42F6-471D-43D6-8A57-3854AE51FB8B}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.971532" DurationMax="1.059463">
+					<IncludedMemoryFiles>
+						<File Id="863174929" Language="SFX">
+							<ShortName>Shield Hit Test 1.wav</ShortName>
+							<Path>SFX\Shield Hit Test 1_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="53529546" Name="Skate_Loop" ObjectPath="\Events\Default Work Unit\Movement\Skate_Loop" GUID="{93F5B2CB-55F3-43BB-B906-070C20946345}" MaxAttenuation="3000.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="248154885" Language="SFX">
+							<ShortName>SkatingLoop_Med.wav</ShortName>
+							<Path>SFX\SkatingLoop_Med_7C68AFDF.wem</Path>
+						</File>
+						<File Id="689016999" Language="SFX">
+							<ShortName>SkatingLoop_Fast.wav</ShortName>
+							<Path>SFX\SkatingLoop_Fast_7C68AFDF.wem</Path>
+						</File>
+						<File Id="960902141" Language="SFX">
+							<ShortName>SkatingLoop_Slow.wav</ShortName>
+							<Path>SFX\SkatingLoop_Slow_7C68AFDF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3617600246" Name="Skate_Step" ObjectPath="\Events\Default Work Unit\Movement\Skate_Step" GUID="{3BDA7BF1-4758-4A88-8AB9-5704F3DE6688}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="0.443405" DurationMax="0.561034">
+					<IncludedMemoryFiles>
+						<File Id="218632588" Language="SFX">
+							<ShortName>SkateStep_Right_02.wav</ShortName>
+							<Path>SFX\SkateStep_Right_02_644E0A11.wem</Path>
+						</File>
+						<File Id="276509803" Language="SFX">
+							<ShortName>SkateStep_Left_01.wav</ShortName>
+							<Path>SFX\SkateStep_Left_01_644E0A11.wem</Path>
+						</File>
+						<File Id="441860317" Language="SFX">
+							<ShortName>SkateStep_Left_02.wav</ShortName>
+							<Path>SFX\SkateStep_Left_02_644E0A11.wem</Path>
+						</File>
+						<File Id="556653633" Language="SFX">
+							<ShortName>SkateStep_Right_01.wav</ShortName>
+							<Path>SFX\SkateStep_Right_01_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2294542517" Name="TeamSelectStarts" ObjectPath="\Events\Default Work Unit\UX\TeamSelectStarts" GUID="{54268041-95A2-4AA7-9EA3-D0C8576586FF}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="2.060313" DurationMax="2.060313">
+					<IncludedMemoryFiles>
+						<File Id="167053442" Language="SFX">
+							<ShortName>AN_MatchStarts_00.wav</ShortName>
+							<Path>SFX\AN_MatchStarts_00_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="213557190" Name="UIBack" ObjectPath="\Events\Default Work Unit\UI\UIBack" GUID="{FA0C5ECD-35E4-4AEC-A1C8-C866B87A3F0A}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="1.356958" DurationMax="1.356958">
+					<IncludedMemoryFiles>
+						<File Id="862963517" Language="SFX">
+							<ShortName>UI_Back_00_SFX.wav</ShortName>
+							<Path>SFX\UI_Back_00_SFX_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3164408517" Name="UIClick" ObjectPath="\Events\Default Work Unit\UI\UIClick" GUID="{5E7156E1-7D47-4620-A025-289C0AF76CEC}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="1.264604" DurationMax="1.264604">
+					<IncludedMemoryFiles>
+						<File Id="321393958" Language="SFX">
+							<ShortName>UI_Click_00_SFX.wav</ShortName>
+							<Path>SFX\UI_Click_00_SFX_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3547775757" Name="UIHighlight" ObjectPath="\Events\Default Work Unit\UI\UIHighlight" GUID="{E46F4BEA-FEAB-4A21-AA27-F6E3609A814A}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.717562" DurationMax="0.717562">
+					<IncludedMemoryFiles>
+						<File Id="682713889" Language="SFX">
+							<ShortName>UI_Highlight_00_SFX.wav</ShortName>
+							<Path>SFX\UI_Highlight_00_SFX_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2107435045" Name="WeaponSwitch" ObjectPath="\Events\Default Work Unit\UX\WeaponSwitch" GUID="{2F441A5D-7429-4CDD-A9A9-884922773D56}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="1.047812" DurationMax="1.155854">
+					<IncludedMemoryFiles>
+						<File Id="805401553" Language="SFX">
+							<ShortName>UX_WeaponSwitch_00_SFX.wav</ShortName>
+							<Path>SFX\UX_WeaponSwitch_00_SFX_644E0A11.wem</Path>
+						</File>
+						<File Id="860134569" Language="SFX">
+							<ShortName>GunPickup Test 2.wav</ShortName>
+							<Path>SFX\GunPickup Test 2_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{245D50E7-45FB-404C-8AE8-75455032E2AC}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{245D50E7-45FB-404C-8AE8-75455032E2AC}">
+							<Media>
+								<File Id="805401553"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A564946B-0641-494D-A613-A37D8A476AE0}">
+							<Media>
+								<File Id="860134569"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3918913551" Name="WinIndication" ObjectPath="\Events\Default Work Unit\UX\WinIndication" GUID="{8DBCCF6A-A152-4BA5-AAE3-2A5D07CC9398}" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="1.820000" DurationMax="2.060313">
+					<IncludedMemoryFiles>
+						<File Id="86268661" Language="SFX">
+							<ShortName>AN_CyanWins_00.wav</ShortName>
+							<Path>SFX\AN_CyanWins_00_644E0A11.wem</Path>
+						</File>
+						<File Id="468782099" Language="SFX">
+							<ShortName>AN_Tie_00.wav</ShortName>
+							<Path>SFX\AN_Tie_00_644E0A11.wem</Path>
+						</File>
+						<File Id="534754492" Language="SFX">
+							<ShortName>AN_PinkWins_00.wav</ShortName>
+							<Path>SFX\AN_PinkWins_00_644E0A11.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{7C243973-727B-4391-A14C-34B1BD17D90D}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{AE4F6262-DB73-405A-9054-43F028EF8548}">
+							<Media>
+								<File Id="534754492"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7C243973-727B-4391-A14C-34B1BD17D90D}">
+							<Media>
+								<File Id="86268661"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2936DAA0-B9D7-4DAA-AD81-EF8984A5D5AE}">
+							<Media>
+								<File Id="468782099"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<IncludedAuxBusses>
+				<AuxBus Id="1132214669" Name="Interior" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Interior" GUID="{F985B50B-81D0-472D-AF87-E43D32C59A6C}"/>
+				<AuxBus Id="1289942167" Name="Stairs" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stairs" GUID="{4546A5B9-D8E1-4F3E-8D9C-683B17204544}"/>
+				<AuxBus Id="1737926756" Name="Tower" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Tower" GUID="{4BD708D6-925F-4C33-BC71-D8F201A56C91}"/>
+				<AuxBus Id="2198133169" Name="Hallway" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Hallway" GUID="{E5EE1372-9E2F-4632-9569-E20146C78611}"/>
+				<AuxBus Id="2205317146" Name="Crushers" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Crushers" GUID="{DD9E238C-A3F0-4C39-8352-465A26DF12F6}"/>
+				<AuxBus Id="2472510969" Name="SkatePark" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SkatePark" GUID="{AB37BDB2-F895-4161-87B7-1BD4303DEC4D}"/>
+				<AuxBus Id="3600139278" Name="OpenArena" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OpenArena" GUID="{B6964FFD-8F4E-4C64-900A-57CAB14C1AAA}"/>
+			</IncludedAuxBusses>
+			<IncludedMemoryFiles>
+				<File Id="1032931065" Language="SFX">
+					<ShortName>ENV_Crushers_00_SFX.wav</ShortName>
+					<Path>SFX\ENV_Crushers_00_SFX_644E0A11.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume" ObjectPath="\Game Parameters\Default Work Unit\SFXVolume" GUID="{EB07100F-A44F-4429-B925-A1CC58C4014A}"/>
+				<GameParameter Id="1493153371" Name="PlayerSpeed" ObjectPath="\Game Parameters\Default Work Unit\PlayerSpeed" GUID="{B410CD58-BED2-4D5E-BA21-403D794363BD}"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume" GUID="{9B3699F3-D2FA-49CB-87BD-C4163BD055D2}"/>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume" GUID="{81918163-D8A4-428C-8286-2AD39C7E1E55}"/>
+				<GameParameter Id="2967674428" Name="ChargeValue" ObjectPath="\Game Parameters\Default Work Unit\ChargeValue" GUID="{7CCB605D-EA39-4E1C-9A58-D8C2C0AC8EDE}"/>
+				<GameParameter Id="3342192252" Name="AmmoCount" ObjectPath="\Game Parameters\Default Work Unit\AmmoCount" GUID="{60EBBBC9-33B9-4CBD-84F7-8F2CF31CE33C}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="766723505" Name="Game_State" ObjectPath="\States\Default Work Unit\Game_State" GUID="{84AC18B8-BB58-4942-BD91-99E7AF62C0A5}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Game_State\None" GUID="{CA6349A0-BC27-416A-A101-1A5E396A6CC9}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\Game_State\MainMenu" GUID="{2E1968FE-8219-4633-81B8-2E3AF4F3E60E}"/>
+						<State Id="3780578133" Name="Results" ObjectPath="\States\Default Work Unit\Game_State\Results" GUID="{AFF2144C-A93C-444C-892B-1BE74042E363}"/>
+						<State Id="1575632888" Name="Match" ObjectPath="\States\Default Work Unit\Game_State\Match" GUID="{41C03C54-1468-42A1-818E-54882AA92550}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1575632888" Name="Match" ObjectPath="\States\Default Work Unit\Game_State\Match" GUID="{41C03C54-1468-42A1-818E-54882AA92550}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1593864692" Name="Defeat" ObjectPath="\States\Default Work Unit\MatchResults\Defeat" GUID="{0AFBF721-E78E-4CD1-9B8A-932E0EC49166}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\MatchResults\Victory" GUID="{7F6A266D-A742-48DC-AABD-E71768400C79}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\Game_State\MainMenu" GUID="{2E1968FE-8219-4633-81B8-2E3AF4F3E60E}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3780578133" Name="Results" ObjectPath="\States\Default Work Unit\Game_State\Results" GUID="{AFF2144C-A93C-444C-892B-1BE74042E363}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="4045247394" Name="MatchResults" ObjectPath="\States\Default Work Unit\MatchResults" GUID="{499EBFEB-1DA1-40CB-B193-A15A0E90FC97}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MatchResults\None" GUID="{515FCE57-DF90-4754-B0CD-82AA2BAE6299}"/>
+						<State Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\MatchResults\Victory" GUID="{7F6A266D-A742-48DC-AABD-E71768400C79}"/>
+						<State Id="1593864692" Name="Defeat" ObjectPath="\States\Default Work Unit\MatchResults\Defeat" GUID="{0AFBF721-E78E-4CD1-9B8A-932E0EC49166}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="99119131" Name="WeaponClass" ObjectPath="\Switches\Default Work Unit\WeaponClass" GUID="{6CA64E70-1D71-4825-AE5B-6C1781A48805}">
+					<Switches>
+						<Switch Id="324443136" Name="Pistol" ObjectPath="\Switches\Default Work Unit\WeaponClass\Pistol" GUID="{E98BFF11-48F5-429A-BDD5-805248EE0A9B}"/>
+						<Switch Id="1886858536" Name="AR" ObjectPath="\Switches\Default Work Unit\WeaponClass\AR" GUID="{D6CB9BFA-5B8D-4979-AC2F-E762FE2755BD}"/>
+						<Switch Id="2550763292" Name="Sniper" ObjectPath="\Switches\Default Work Unit\WeaponClass\Sniper" GUID="{1E94A926-B70E-4572-A6C1-CD9863F924A4}"/>
+						<Switch Id="51683977" Name="Shotgun" ObjectPath="\Switches\Default Work Unit\WeaponClass\Shotgun" GUID="{19E45474-3ABE-4834-B705-3F12BCB1BBA7}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="671153609" Name="HitDetection" ObjectPath="\Switches\Default Work Unit\HitDetection" GUID="{32DA7C7E-0AFA-420E-A346-5229C3B5E7E0}">
+					<Switches>
+						<Switch Id="3448274439" Name="Head" ObjectPath="\Switches\Default Work Unit\HitDetection\Head" GUID="{AF71B553-9F25-4DB3-9084-F30130922085}"/>
+						<Switch Id="1116398592" Name="Hit" ObjectPath="\Switches\Default Work Unit\HitDetection\Hit" GUID="{01260D88-479D-4275-AE7C-EBCE351CA470}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3357278453" Name="SwitchPickup" ObjectPath="\Switches\Default Work Unit\SwitchPickup" GUID="{D6F16D9A-07B3-40E8-89F0-A446C2AB0BCD}">
+					<Switches>
+						<Switch Id="3202316517" Name="Switch" ObjectPath="\Switches\Default Work Unit\SwitchPickup\Switch" GUID="{245D50E7-45FB-404C-8AE8-75455032E2AC}"/>
+						<Switch Id="3978245845" Name="Pickup" ObjectPath="\Switches\Default Work Unit\SwitchPickup\Pickup" GUID="{A564946B-0641-494D-A613-A37D8A476AE0}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4056318799" Name="TeamChoice" ObjectPath="\Switches\Default Work Unit\TeamChoice" GUID="{9FDA4C7F-5F38-441B-8354-620636E481B9}">
+					<Switches>
+						<Switch Id="1944526589" Name="Pink" ObjectPath="\Switches\Default Work Unit\TeamChoice\Pink" GUID="{AE4F6262-DB73-405A-9054-43F028EF8548}"/>
+						<Switch Id="4205001740" Name="Cyan" ObjectPath="\Switches\Default Work Unit\TeamChoice\Cyan" GUID="{7C243973-727B-4391-A14C-34B1BD17D90D}"/>
+						<Switch Id="670611050" Name="Neutral" ObjectPath="\Switches\Default Work Unit\TeamChoice\Neutral" GUID="{2936DAA0-B9D7-4DAA-AD81-EF8984A5D5AE}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

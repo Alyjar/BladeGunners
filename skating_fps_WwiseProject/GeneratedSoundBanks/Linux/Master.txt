@@ -1,0 +1,176 @@
+Event	ID	Name			Wwise Object Path	Notes
+	16204334	NoAmmo			\Default Work Unit\Shooting & Shields\NoAmmo	
+	53529546	Skate_Loop			\Default Work Unit\Movement\Skate_Loop	
+	157885098	MatchLost			\Default Work Unit\Music\MatchLost	
+	213557190	UIBack			\Default Work Unit\UI\UIBack	
+	427746626	GunRecharging_Start			\Default Work Unit\Shooting & Shields\GunRecharging_Start	
+	459771350	RailAttach			\Default Work Unit\Movement\RailAttach	
+	468298851	GameOpen			\Default Work Unit\Music\GameOpen	
+	540301611	Lava			\Default Work Unit\Environment\Lava	
+	585746424	Grind_Stop			\Default Work Unit\Movement\Grind_Stop	
+	674522502	Land			\Default Work Unit\Movement\Land	
+	892944862	ShieldCharging_Stop			\Default Work Unit\Shooting & Shields\ShieldCharging_Stop	
+	1116398592	Hit			\Default Work Unit\UX\Hit	
+	1128266288	ClientShot			\Default Work Unit\Shooting & Shields\ClientShot	
+	1234974953	ADS			\Default Work Unit\UX\ADS	
+	1505888634	Countdown			\Default Work Unit\UX\Countdown	
+	1786804762	Damage			\Default Work Unit\Health\Damage	
+	1819439377	ServerShoot			\Default Work Unit\Shooting & Shields\ServerShoot	
+	1955667474	Boinghee			\Default Work Unit\UI\Boinghee	
+	2044049779	Dead			\Default Work Unit\Health\Dead	
+	2107435045	WeaponSwitch			\Default Work Unit\UX\WeaponSwitch	
+	2205317146	Crushers			\Default Work Unit\Environment\Crushers	
+	2294542517	TeamSelectStarts			\Default Work Unit\UX\TeamSelectStarts	
+	2392936760	RailDetach			\Default Work Unit\Movement\RailDetach	
+	2456249192	LobbyLeave			\Default Work Unit\UI\LobbyLeave	
+	2513197477	ShieldHit			\Default Work Unit\Health\ShieldHit	
+	2727648143	MatchBegin			\Default Work Unit\Music\MatchBegin	
+	2769527486	ShieldCharging_Start			\Default Work Unit\Shooting & Shields\ShieldCharging_Start	
+	2782955467	LobbyJoin			\Default Work Unit\UI\LobbyJoin	
+	2893136410	GameStarted			\Default Work Unit\UI\GameStarted	
+	3009932360	Bouncepad			\Default Work Unit\Environment\Bouncepad	
+	3047626640	KillConfirmed			\Default Work Unit\UX\KillConfirmed	
+	3164408517	UIClick			\Default Work Unit\UI\UIClick	
+	3547775757	UIHighlight			\Default Work Unit\UI\UIHighlight	
+	3581278824	MatchWon			\Default Work Unit\Music\MatchWon	
+	3617600246	Skate_Step			\Default Work Unit\Movement\Skate_Step	
+	3724168951	ShieldBreak			\Default Work Unit\Shooting & Shields\ShieldBreak	
+	3758073156	Grind_Start			\Default Work Unit\Movement\Grind_Start	
+	3776560549	PlayRandomAd			\Default Work Unit\UI\PlayRandomAd	
+	3833651337	Jump			\Default Work Unit\Movement\Jump	
+	3918913551	WinIndication			\Default Work Unit\UX\WinIndication	
+	3928844556	Healed			\Default Work Unit\Health\Healed	
+	4279841335	Respawn			\Default Work Unit\Health\Respawn	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	99119131	WeaponClass			\Default Work Unit\WeaponClass	
+	671153609	HitDetection			\Default Work Unit\HitDetection	
+	3357278453	SwitchPickup			\Default Work Unit\SwitchPickup	
+	4056318799	TeamChoice			\Default Work Unit\TeamChoice	
+
+Switch	ID	Name	Switch Group			Notes
+	51683977	Shotgun	WeaponClass			
+	324443136	Pistol	WeaponClass			
+	1886858536	AR	WeaponClass			
+	2550763292	Sniper	WeaponClass			
+	1116398592	Hit	HitDetection			
+	3448274439	Head	HitDetection			
+	3202316517	Switch	SwitchPickup			
+	3978245845	Pickup	SwitchPickup			
+	670611050	Neutral	TeamChoice			
+	1944526589	Pink	TeamChoice			
+	4205001740	Cyan	TeamChoice			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	766723505	Game_State			\Default Work Unit\Game_State	
+	4045247394	MatchResults			\Default Work Unit\MatchResults	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Game_State			
+	1575632888	Match	Game_State			
+	3604647259	MainMenu	Game_State			
+	3780578133	Results	Game_State			
+	748895195	None	MatchResults			
+	1593864692	Defeat	MatchResults			
+	2716678721	Victory	MatchResults			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	988953028	SFXVolume			\Default Work Unit\SFXVolume	
+	1493153371	PlayerSpeed			\Default Work Unit\PlayerSpeed	
+	2346531308	MusicVolume			\Default Work Unit\MusicVolume	
+	2918011349	MasterVolume			\Default Work Unit\MasterVolume	
+	2967674428	ChargeValue			\Default Work Unit\ChargeValue	The Range will grab the value of an item's charge and will control specific sound elements based on this value. Examples: Shield Charge, Gun Reloading, Overshield Ennervation, etc.
+	3342192252	AmmoCount			\Default Work Unit\AmmoCount	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1132214669	Interior			\Default Work Unit\Master Audio Bus\Interior	
+	1289942167	Stairs			\Default Work Unit\Master Audio Bus\Stairs	
+	1737926756	Tower			\Default Work Unit\Master Audio Bus\Tower	
+	2198133169	Hallway			\Default Work Unit\Master Audio Bus\Hallway	
+	2205317146	Crushers			\Default Work Unit\Master Audio Bus\Crushers	
+	2472510969	SkatePark			\Default Work Unit\Master Audio Bus\SkatePark	
+	3600139278	OpenArena			\Default Work Unit\Master Audio Bus\OpenArena	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+	2849147824	Medium	Wwise RoomVerb			
+	2949243095	Hall_Small_Bright	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
+	3900114836	Metal_Hangar	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	10266626	Pistol	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\Gunshot_Pistol_01_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Gun\Shoot\Pistol		264660
+	24719745	FLY_RailAttach_04	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_RailAttach_04_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\RailAttach\FLY_RailAttach_04		149980
+	24902786	FLY_RailAttach_02	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_RailAttach_02_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\RailAttach\FLY_RailAttach_02		149348
+	36720437	Sniper	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\Gunshot_Sniper_06_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Gun\Shoot\Sniper		298520
+	86268661	AN_CyanWins_00	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\AN_CyanWins_00_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\Announcer\WinIndication\AN_CyanWins_00		363500
+	106168471	Lobby00_130bpm_4-4	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\Lobby00_130bpm_4-4_7C68AFDF.wem		\Interactive Music Hierarchy\Default Work Unit\Menu\MenuMusic\serverLobby_4-4_130bpm\Lobby00_130bpm_4-4		7936064
+	143643532	VOID_02_01	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\VOID_02_01_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\Ads\Ads\VOID_02_01		792116
+	167053442	AN_MatchStarts_00	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\AN_MatchStarts_00_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\Announcer\AN_MatchStarts_00		363500
+	169644868	Respawn	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UX_Respawn_00_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UX\Respawn		405780
+	171351028	KillConfirmed	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\USER-FEEDBACK_KillConfirmed_01_Stereo_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UX\KillConfirmed		268188
+	190807449	Headshot	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UX_Headshot_01_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UX\HitDetection\Headshot		313372
+	211838108	Hit Marker	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\CLICK_HitMarker_003_Stereo_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UX\HitDetection\Hit Marker		176460
+	218632588	SkateStep_Right_02	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\SkateStep_Right_02_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Skate_Step\Right\SkateStep_Right_02		96212
+	248154885	SkatingLoop_Med	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\SkatingLoop_Med_7C68AFDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Skate_Loop\SkatingLoop_Med		432692
+	274071666	LeaveLobby	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UI_LeaveLobby_Test_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UI\LeaveLobby		176460
+	276509803	SkateStep_Left_01	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\SkateStep_Left_01_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Skate_Step\Left\SkateStep_Left_01		89756
+	320995808	FLY_SkateJump_03_SFX	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_SkateJump_03_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Jump\FLY_SkateJump_03_SFX		99784
+	321393958	UIClick	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UI_Click_00_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UI\UIClick		223140
+	349537209	FLY_SkateJump_04_SFX	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_SkateJump_04_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Jump\FLY_SkateJump_04_SFX		151424
+	354205196	FLY_RailAttach_03	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_RailAttach_03_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\RailAttach\FLY_RailAttach_03		137960
+	363268828	AN_Countdown_00	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\AN_Countdown_00_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\Announcer\AN_Countdown_00		846000
+	441860317	SkateStep_Left_02	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\SkateStep_Left_02_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Skate_Step\Left\SkateStep_Left_02		88984
+	459335821	Shotgun	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\Gunshot_Shotgun_04_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Gun\Shoot\Shotgun		352720
+	466860055	M07_120bpm_4-4	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\M07_120bpm_4-4_28272014.wem		\Interactive Music Hierarchy\Default Work Unit\Match\MatchBegin\M07_120bpm_4-4		33996589
+	468782099	AN_Tie_00	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\AN_Tie_00_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\Announcer\WinIndication\AN_Tie_00		321108
+	476033205	FLY_SkateJump_01_SFX	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_SkateJump_01_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Jump\FLY_SkateJump_01_SFX		111360
+	497339334	ZERO_03_02	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\ZERO_03_02_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\Ads\Ads\ZERO_03_02		886464
+	521512677	NoAmmo	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\WPN_GunEmpty_00_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Gun\NoAmmo		162108
+	530952679	FLY_SkateJump_02_SFX	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_SkateJump_02_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Jump\FLY_SkateJump_02_SFX		111360
+	534754492	AN_PinkWins_00	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\AN_PinkWins_00_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\Announcer\WinIndication\AN_PinkWins_00		363500
+	537495435	Victory00_130bpm_4-4	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\Victory00_130bpm_4-4_28272014.wem		\Interactive Music Hierarchy\Default Work Unit\Match\victory_4-4_130bpm\Victory00_130bpm_4-4		368552
+	549812915	GRIFFIN_02_00	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\GRIFFIN_02_00_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\Ads\Ads\GRIFFIN_02_00		541340
+	556653633	SkateStep_Right_01	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\SkateStep_Right_01_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Skate_Step\Right\SkateStep_Right_01		82928
+	573336099	AR	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\Gunshot_AR_SingleShot_00_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Gun\Shoot\AR		507564
+	576008998	FLY_SkateLand_04_SFX	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_SkateLand_04_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Land\FLY_SkateLand_04_SFX		137328
+	576743659	ServerShoot	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\Server-side Shot_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\ServerShoot		128836
+	577739145	FLY_RailAttach_01	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_RailAttach_01_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\RailAttach\FLY_RailAttach_01		137960
+	600263917	ShieldCharging	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UX_ShieldRecharging_00_7C68AFDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UX\ShieldCharging	Looped, needs a Stop event Type.	316408
+	648291967	ShieldBreak	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\Shield Broken Test 9_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UX\ShieldBreak		206788
+	679269587	RailDetach	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_RailDetach_00_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\RailDetach		112248
+	682713889	UIHighlight	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UI_Highlight_00_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UI\UIHighlight		126640
+	689016999	SkatingLoop_Fast	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\SkatingLoop_Fast_7C68AFDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Skate_Loop\SkatingLoop_Fast		432692
+	700304251	ADS	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UX_ADS_00_SFX_BC9F42A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UX\ADS		100764
+	731759316	GameStart	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UI_GameCountdown_03_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UI\GameStart		970260
+	733496274	Death	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\PlayerDeath_01_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\Death		568384
+	760895280	FLY_SkateLand_02_SFX	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_SkateLand_02_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Land\FLY_SkateLand_02_SFX		124044
+	794331485	Grinding	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_RailLoop_00_7C68AFDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Grinding		85136
+	797955488	FLY_SkateLand_01_SFX	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_SkateLand_01_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Land\FLY_SkateLand_01_SFX		139860
+	805401553	SwitchWeapon	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UX_WeaponSwitch_00_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Gun\WeaponSwitch\SwitchWeapon		184896
+	860134569	GunPickup	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\GunPickup Test 2_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Gun\WeaponSwitch\GunPickup		203956
+	862963517	UIBack	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UI_Back_00_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UI\UIBack		239428
+	863174929	ShieldHit	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\Shield Hit Test 1_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UX\ShieldHit		176460
+	871496868	GunReload_PartTwo	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\WPN_GunRecharge_02 _7C68AFDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UX\GunReload_PartTwo		705660
+	877345354	ZERO_02_01	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\ZERO_02_01_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\Ads\Ads\ZERO_02_01		1147172
+	928315839	HealthLost	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\Take Damage Test 1_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UX\HealthLost		176460
+	936259493	VOID_06_00	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\VOID_06_00_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\Ads\Ads\VOID_06_00		648104
+	960902141	SkatingLoop_Slow	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\SkatingLoop_Slow_7C68AFDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Skate_Loop\SkatingLoop_Slow		432692
+	979770954	LavaLoop	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\Lava_Loop_27EF4C84.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\LavaLoop		3727808
+	981271628	GunReload_PartOne	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\WPN_GunRecharge_01_7C68AFDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UX\GunReload_PartOne		617460
+	991469031	Bouncepad	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\ENV_Bouncepad_00_898E3A81.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Bouncepad		404260
+	995413304	defeat	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\defeat_28272014.wem		\Interactive Music Hierarchy\Default Work Unit\Match\defeat\defeat		452908
+	1010537238	HealthGained	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UX_HealthGained_Test_01_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UX\HealthGained		301728
+	1014266884	GRIFFIN_02_01	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\GRIFFIN_02_01_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\Ads\Ads\GRIFFIN_02_01		536372
+	1030572292	FLY_SkateLand_03_SFX	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\FLY_SkateLand_03_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Movement\Land\FLY_SkateLand_03_SFX		125940
+	1032931065	Crushers	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\ENV_Crushers_00_SFX_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Environment\Crushers		1101444
+	1070926596	Boingy	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\Bouncepad_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UI\Boingy		158824
+	1072285832	JoinLobby	D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UI_JoinLobby_Test_644E0A11.wem		\Actor-Mixer Hierarchy\Default Work Unit\Non-Diegetic\UI\JoinLobby		176460
+

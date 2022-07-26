@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{142662E5-1A10-4218-A6AF-733166D3B8F1}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{142662E5-1A10-4218-A6AF-733166D3B8F1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="WeaponClass" ID="{6CA64E70-1D71-4825-AE5B-6C1781A48805}">
+					<ChildrenList>
+						<Switch Name="Pistol" ID="{E98BFF11-48F5-429A-BDD5-805248EE0A9B}"/>
+						<Switch Name="AR" ID="{D6CB9BFA-5B8D-4979-AC2F-E762FE2755BD}"/>
+						<Switch Name="Sniper" ID="{1E94A926-B70E-4572-A6C1-CD9863F924A4}"/>
+						<Switch Name="Shotgun" ID="{19E45474-3ABE-4834-B705-3F12BCB1BBA7}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="TeamChoice" ID="{9FDA4C7F-5F38-441B-8354-620636E481B9}">
+					<ChildrenList>
+						<Switch Name="Pink" ID="{AE4F6262-DB73-405A-9054-43F028EF8548}"/>
+						<Switch Name="Cyan" ID="{7C243973-727B-4391-A14C-34B1BD17D90D}"/>
+						<Switch Name="Neutral" ID="{2936DAA0-B9D7-4DAA-AD81-EF8984A5D5AE}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="HitDetection" ID="{32DA7C7E-0AFA-420E-A346-5229C3B5E7E0}">
+					<ChildrenList>
+						<Switch Name="Head" ID="{AF71B553-9F25-4DB3-9084-F30130922085}"/>
+						<Switch Name="Hit" ID="{01260D88-479D-4275-AE7C-EBCE351CA470}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Foot" ID="{90573218-11AA-48CE-8253-592E428EE2B4}">
+					<ChildrenList>
+						<Switch Name="Right" ID="{8AD77BDF-EFA2-4D76-BD70-0DA834413082}"/>
+						<Switch Name="Left" ID="{F3813168-AA66-43E8-A930-DF68953211CD}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="SwitchPickup" ID="{D6F16D9A-07B3-40E8-89F0-A446C2AB0BCD}">
+					<ChildrenList>
+						<Switch Name="Switch" ID="{245D50E7-45FB-404C-8AE8-75455032E2AC}"/>
+						<Switch Name="Pickup" ID="{A564946B-0641-494D-A613-A37D8A476AE0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

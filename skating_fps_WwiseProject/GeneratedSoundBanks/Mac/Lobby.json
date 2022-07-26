@@ -1,0 +1,62 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\mediocre-reality\\skating_fps_WwiseProject\\",
+   "SourceFilesRoot": "D:\\mediocre-reality\\skating_fps_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\mediocre-reality\\skating_fps_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\mediocre-reality\\skating_fps_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "290285391",
+    "GUID": "{80B873C5-07E4-4BBF-A545-70869776701C}",
+    "Language": "SFX",
+    "Hash": "1528831455",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Lobby",
+    "ShortName": "Lobby",
+    "Path": "Lobby.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2782955467",
+      "Name": "LobbyJoin",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\LobbyJoin",
+      "GUID": "{C4792216-5547-44F2-8BA3-6F50AA1D4D45}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.943874",
+      "DurationMax": "1.029302",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1072285832",
+        "Language": "SFX",
+        "ShortName": "UI_JoinLobby_Test.wav",
+        "Path": "SFX\\UI_JoinLobby_Test_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2456249192",
+      "Name": "LobbyLeave",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\LobbyLeave",
+      "GUID": "{A467547A-46F2-4BB4-9249-44A47F56CDA4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.943874",
+      "DurationMax": "1.029302",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "274071666",
+        "Language": "SFX",
+        "ShortName": "UI_LeaveLobby_Test.wav",
+        "Path": "SFX\\UI_LeaveLobby_Test_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

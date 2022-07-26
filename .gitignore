@@ -1,0 +1,7 @@
+# Wwise
+skating_fps_WwiseProject/.cache
+*.validationcache
+*.wsettings
+SoundbanksInfo.xml
+PluginInfo.xml
+*.akd

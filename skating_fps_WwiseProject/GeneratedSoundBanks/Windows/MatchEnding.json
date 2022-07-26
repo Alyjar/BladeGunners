@@ -1,0 +1,26 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\mediocre-reality\\skating_fps_WwiseProject\\",
+   "SourceFilesRoot": "D:\\mediocre-reality\\skating_fps_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\mediocre-reality\\skating_fps_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\mediocre-reality\\skating_fps_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "187744289",
+    "GUID": "{94A218B4-5BA4-4290-B70D-AC5878F2B399}",
+    "Language": "SFX",
+    "Hash": "1192175058",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MatchEnding",
+    "ShortName": "MatchEnding",
+    "Path": "MatchEnding.bnk"
+   }
+  ]
+ }
+}

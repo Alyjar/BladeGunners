@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\mediocre-reality\skating_fps_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\mediocre-reality\skating_fps_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\mediocre-reality\skating_fps_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\mediocre-reality\skating_fps_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="290285391" GUID="{80B873C5-07E4-4BBF-A545-70869776701C}" Language="SFX" Hash="1528831455">
+			<ObjectPath>\SoundBanks\Default Work Unit\Lobby</ObjectPath>
+			<ShortName>Lobby</ShortName>
+			<Path>Lobby.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2782955467" Name="LobbyJoin" ObjectPath="\Events\Default Work Unit\UI\LobbyJoin" GUID="{C4792216-5547-44F2-8BA3-6F50AA1D4D45}" DurationType="OneShot" DurationMin="0.943874" DurationMax="1.029302">
+					<IncludedMemoryFiles>
+						<File Id="1072285832" Language="SFX">
+							<ShortName>UI_JoinLobby_Test.wav</ShortName>
+							<Path>SFX\UI_JoinLobby_Test_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2456249192" Name="LobbyLeave" ObjectPath="\Events\Default Work Unit\UI\LobbyLeave" GUID="{A467547A-46F2-4BB4-9249-44A47F56CDA4}" DurationType="OneShot" DurationMin="0.943874" DurationMax="1.029302">
+					<IncludedMemoryFiles>
+						<File Id="274071666" Language="SFX">
+							<ShortName>UI_LeaveLobby_Test.wav</ShortName>
+							<Path>SFX\UI_LeaveLobby_Test_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

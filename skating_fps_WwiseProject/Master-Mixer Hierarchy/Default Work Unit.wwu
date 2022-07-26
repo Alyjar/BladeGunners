@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AE8390F1-D0E7-46E1-9823-4202922D1C6F}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{AE8390F1-D0E7-46E1-9823-4202922D1C6F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{132CF889-A605-4FAE-818F-365BA448C269}" ShortID="262084571">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MasterVolume" ID="{81918163-D8A4-428C-8286-2AD39C7E1E55}" WorkUnitID="{EC4E7C3A-0298-446F-B862-49FFA0831333}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F4D3A32F-E161-4701-A897-D1D2BA008D01}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>2.5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{87302D04-B656-4045-B887-23CF95D8D7C2}" WorkUnitID="{CDABBBF8-A0EC-4C55-992F-86D797CD3E28}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{0E690E09-BC0D-4130-9CBB-CE8D1BA8BB0F}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+								<Property Name="CenterPercentage" Type="int32">
+									<ValueList>
+										<Value>0</Value>
+									</ValueList>
+								</Property>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-6"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{D9D1C6E0-930F-4763-80E4-DA57B9EEC6B5}" ShortID="654424787">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MusicVolume" ID="{9B3699F3-D2FA-49CB-87BD-C4163BD055D2}" WorkUnitID="{EC4E7C3A-0298-446F-B862-49FFA0831333}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{832253BA-FD4B-4448-84D2-CA0C997B2211}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>2.5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="SFX" ID="{3D2979BE-7A76-403B-8439-6FA7CC03D770}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{032CCF44-F874-4E92-9AC6-A6185AE44AF3}" ShortID="503829964">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXVolume" ID="{EB07100F-A44F-4429-B925-A1CC58C4014A}" WorkUnitID="{EC4E7C3A-0298-446F-B862-49FFA0831333}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D206E908-D4EF-4E4F-A5B6-191A87C91AB6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>2.5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+						<AuxBus Name="Crushers" ID="{DD9E238C-A3F0-4C39-8352-465A26DF12F6}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="WorldObject" ID="{14BB0A79-DF74-4249-A096-F800B574F6F7}" WorkUnitID="{2EF741D0-F71E-49BD-8939-CAFB40E439C8}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Medium_Dark" ID="{626B6E38-739B-4689-819F-F81AD3788BDE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="SkatePark" ID="{AB37BDB2-F895-4161-87B7-1BD4303DEC4D}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="WorldObject" ID="{14BB0A79-DF74-4249-A096-F800B574F6F7}" WorkUnitID="{2EF741D0-F71E-49BD-8939-CAFB40E439C8}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Machine_Gun_Hangar" ID="{B8FD966C-FC0F-4CD3-8236-B28DF27CDE7D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Tower" ID="{4BD708D6-925F-4C33-BC71-D8F201A56C91}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="WorldObject" ID="{14BB0A79-DF74-4249-A096-F800B574F6F7}" WorkUnitID="{2EF741D0-F71E-49BD-8939-CAFB40E439C8}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Medium" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Stairs" ID="{4546A5B9-D8E1-4F3E-8D9C-683B17204544}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="WorldObject" ID="{14BB0A79-DF74-4249-A096-F800B574F6F7}" WorkUnitID="{2EF741D0-F71E-49BD-8939-CAFB40E439C8}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Medium_Tiled" ID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Interior" ID="{F985B50B-81D0-472D-AF87-E43D32C59A6C}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="WorldObject" ID="{14BB0A79-DF74-4249-A096-F800B574F6F7}" WorkUnitID="{2EF741D0-F71E-49BD-8939-CAFB40E439C8}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Hallway" ID="{E5EE1372-9E2F-4632-9569-E20146C78611}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="WorldObject" ID="{14BB0A79-DF74-4249-A096-F800B574F6F7}" WorkUnitID="{2EF741D0-F71E-49BD-8939-CAFB40E439C8}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Small_Bright" ID="{D8AD1955-D2BA-4C88-A806-E2D8AB47A90B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="OpenArena" ID="{B6964FFD-8F4E-4C64-900A-57CAB14C1AAA}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="WorldObject" ID="{14BB0A79-DF74-4249-A096-F800B574F6F7}" WorkUnitID="{2EF741D0-F71E-49BD-8939-CAFB40E439C8}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Metal_Hangar" ID="{C4A4605C-42EF-476A-B53C-E31C7A442C24}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

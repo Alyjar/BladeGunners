@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2456249192	LobbyLeave			\Default Work Unit\UI\LobbyLeave	
+	2782955467	LobbyJoin			\Default Work Unit\UI\LobbyJoin	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	274071666	LeaveLobby	D:\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UI_LeaveLobby_Test_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\LeaveLobby		192064
+	1072285832	JoinLobby	D:\mediocre-reality\skating_fps_WwiseProject\.cache\Linux\SFX\UI_JoinLobby_Test_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\JoinLobby		192064
+

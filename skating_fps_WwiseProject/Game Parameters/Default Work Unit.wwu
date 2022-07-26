@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EC4E7C3A-0298-446F-B862-49FFA0831333}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{EC4E7C3A-0298-446F-B862-49FFA0831333}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="ChargeValue" ID="{7CCB605D-EA39-4E1C-9A58-D8C2C0AC8EDE}">
+					<Comment>The Range will grab the value of an item's charge and will control specific sound elements based on this value. Examples: Shield Charge, Gun Reloading, Overshield Ennervation, etc.</Comment>
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MasterVolume" ID="{81918163-D8A4-428C-8286-2AD39C7E1E55}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.6"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="MusicVolume" ID="{9B3699F3-D2FA-49CB-87BD-C4163BD055D2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.6"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SFXVolume" ID="{EB07100F-A44F-4429-B925-A1CC58C4014A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.6"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="PlayerSpeed" ID="{B410CD58-BED2-4D5E-BA21-403D794363BD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="AmmoCount" ID="{60EBBBC9-33B9-4CBD-84F7-8F2CF31CE33C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

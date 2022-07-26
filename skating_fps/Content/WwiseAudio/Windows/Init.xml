@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Source Control Clones\mediocre-reality\skating_fps\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Source Control Clones\mediocre-reality\skating_fps_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1597232615">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1132214669" Name="Interior" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Interior" GUID="{F985B50B-81D0-472D-AF87-E43D32C59A6C}"/>
+				<AuxBus Id="1289942167" Name="Stairs" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stairs" GUID="{4546A5B9-D8E1-4F3E-8D9C-683B17204544}"/>
+				<AuxBus Id="1737926756" Name="Tower" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Tower" GUID="{4BD708D6-925F-4C33-BC71-D8F201A56C91}"/>
+				<AuxBus Id="2198133169" Name="Hallway" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Hallway" GUID="{E5EE1372-9E2F-4632-9569-E20146C78611}"/>
+				<AuxBus Id="2205317146" Name="Crushers" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Crushers" GUID="{DD9E238C-A3F0-4C39-8352-465A26DF12F6}"/>
+				<AuxBus Id="2472510969" Name="SkatePark" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SkatePark" GUID="{AB37BDB2-F895-4161-87B7-1BD4303DEC4D}"/>
+				<AuxBus Id="3600139278" Name="OpenArena" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\OpenArena" GUID="{B6964FFD-8F4E-4C64-900A-57CAB14C1AAA}"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume" ObjectPath="\Game Parameters\Default Work Unit\SFXVolume" GUID="{EB07100F-A44F-4429-B925-A1CC58C4014A}"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume" GUID="{9B3699F3-D2FA-49CB-87BD-C4163BD055D2}"/>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume" GUID="{81918163-D8A4-428C-8286-2AD39C7E1E55}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5F8E5783-3172-4DE0-92F6-6050140A6245}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{5F8E5783-3172-4DE0-92F6-6050140A6245}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Game_State" ID="{84AC18B8-BB58-4942-BD91-99E7AF62C0A5}">
+					<ChildrenList>
+						<State Name="None" ID="{CA6349A0-BC27-416A-A101-1A5E396A6CC9}"/>
+						<State Name="MainMenu" ID="{2E1968FE-8219-4633-81B8-2E3AF4F3E60E}"/>
+						<State Name="Results" ID="{AFF2144C-A93C-444C-892B-1BE74042E363}"/>
+						<State Name="Match" ID="{41C03C54-1468-42A1-818E-54882AA92550}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="MatchResults" ID="{499EBFEB-1DA1-40CB-B193-A15A0E90FC97}">
+					<ChildrenList>
+						<State Name="None" ID="{515FCE57-DF90-4754-B0CD-82AA2BAE6299}"/>
+						<State Name="Victory" ID="{7F6A266D-A742-48DC-AABD-E71768400C79}"/>
+						<State Name="Defeat" ID="{0AFBF721-E78E-4CD1-9B8A-932E0EC49166}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
